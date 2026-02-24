@@ -39,3 +39,6 @@ Notes
 - Drawdown is computed using cumulative PnL and rolling peak.
 - Leverage is proxied using trade size and PnL volatility.
 - All metrics are calculated at daily and trader levels.
+
+
+NOTE - historical_data.csv could not be loaded due to large file size
