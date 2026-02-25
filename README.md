@@ -19,6 +19,8 @@ Files
 - summary.md — Methodology, insights and actionable recommendations
 - fear_greed_index.csv — Market sentiment data
 - historical_data.csv — Trader transaction data
+- predictive_model_#1.ipynb — Logistic Regression Model using long-term trader characteristics
+- predictive_model_#2.ipynb — Logistic Regression Model using short-term behavioral and market features
 
 Setup
 
@@ -38,7 +40,9 @@ Notes
 
 - Drawdown is computed using cumulative PnL and rolling peak.
 - Leverage is proxied using trade size and PnL volatility.
+- Predictive Model #2 uses time-based train-test splits to prevent data leakage.
 - All metrics are calculated at daily and trader levels.
 
 
 NOTE - historical_data.csv could not be loaded due to large file size
+
