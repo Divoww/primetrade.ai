@@ -14,3 +14,9 @@ METHODOLOGY
 2 ACTIONABLE OUTPUTS
 - Cap maximum position size during Extreme Greed regimes.
 - During Fear regimes, tilt strategy bias toward long setups with controlled downside risk.
+
+PREDICTIVE MODELS
+- Model 1 — Long-Term Trader Characteristics
+  This logistic regression model uses stable trader traits such as trading frequency, consistency, and risk profile to predict next-day profitability. It captures structural behavior patterns rather than short-term noise.
+- Model 2 — Short-Term Market and Behavioral Features
+  This logistic regression model uses rolling PnL trends, recent trading activity, and current market sentiment to predict next-day profitability. It focuses on short-term momentum and regime-driven effects.
